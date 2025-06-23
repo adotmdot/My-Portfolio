@@ -28,7 +28,15 @@
     }
 
     .contact-info-upper-container {
-       flex-wrap: wrap;
+    flex-wrap: wrap; 
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: orange 0.1rem solid;
+    border-color: orange;
+    background: none;
+    margin: 2rem -4rem;
+    padding: 0.5rem;
     }
 
     .btn-container {
@@ -287,68 +295,6 @@ font-size: 1.8rem;
   width: auto;
 }
 
-#projects .about-containers {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2.5rem;
-  width: 100%;
-}
-
-#projects .details-container {
-  width: 90%;
-  max-width: 350px;
-  margin: 1.5rem auto;
-  padding: 1rem;
-  box-sizing: border-box;
-  border: 2px solid orange;
-  border-radius: 2rem;
-  background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-
-.project-img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-}
-
-#projects .btn-container {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
-  flex-wrap: wrap;
-  font-size: 0.9rem;
-  width: 7rem;
-}
-
-.project-btn {
-    font-size: 0.9rem;
-    width: 7rem;
-    text-align: center;
-  }
-
-.project-title {
-  text-align: center;
-  font-size: 1.2rem;
-  margin: 1rem 0 0.5rem;
-}
-
-.details-container p,
-.project-title,
-.project-btn {
-  word-wrap: break-word;
-  text-align: center;
-}
 
 
 
