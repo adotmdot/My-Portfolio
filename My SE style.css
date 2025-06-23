@@ -25,6 +25,7 @@ h2 {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 p {
@@ -40,6 +41,7 @@ img {
 a, .btn {
     transition:all 300ms ease
 }
+
 
 /* Desktop Nav */
 
