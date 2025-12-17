@@ -1,8 +1,11 @@
 # Anthony Massaquoi — Portfolio
 
 Live Site: https://adotmdot.github.io/My-Portfolio/
+![Portfolio Preview](./profile.png)
 
-A responsive personal portfolio showcasing my skills, background, and projects. Built with a clean UI, mobile-first layout, and simple JavaScript interactions.
+
+A responsive personal portfolio showcasing my skills, background, and
+projects. Built with a clean UI, mobile-first layout, and simple JavaScript interactions.
 
 ---
 
