@@ -31,7 +31,9 @@ projects. Built with a clean UI, mobile-first layout, and simple JavaScript inte
 - **Fashion Landing Page** — brand landing page layout  
 - **Pizza Builder App** — interactive UI with real-time updates  
 - **Recipe Website** — responsive recipe layout and navigation  
-- **Age Calculator** — calculates exact age from date of birth  
+- **Age Calculator** — calculates exact age from date of birth
+- **Interactive World Map** — Angular-based interactive world map that displays real-time country
+    data
 
 ---
 
