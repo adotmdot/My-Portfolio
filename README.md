@@ -23,6 +23,11 @@ projects. Built with a clean UI, mobile-first layout, and simple JavaScript inte
 - CSS3
 - JavaScript
 - GitHub Pages
+- Fast API
+- Docker
+- Azure Container
+- OpenAPI
+- Python
 
 ---
 
@@ -34,6 +39,7 @@ projects. Built with a clean UI, mobile-first layout, and simple JavaScript inte
 - **Age Calculator** — calculates exact age from date of birth
 - **Interactive World Map** — Angular-based interactive world map that displays real-time country
     data
+- **FleetOps AI Assistant** — An enterprise-style AI assistant integrated with Custom GPT Actions and a FastAPI backend
 
 ---
 
