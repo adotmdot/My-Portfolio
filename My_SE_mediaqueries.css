@@ -3,8 +3,11 @@
   body {
   overflow-x: hidden;
 }
-    #contact, footer {
-        height: 40vh;
+    #contact,
+    footer {
+        height: auto;
+        min-height: fit-content;
+        padding-bottom: 2rem;
     }
 
     #profile {
@@ -347,6 +350,28 @@ font-size: 1.8rem;
   align-items: center;
   text-align: center;
   padding: 0 1rem;
+}
+
+
+/* FIX MOBILE PARAGRAPH WIDTH */
+#about .text-container,
+#contact .section__text,
+.contact-info-upper-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+#about .text-container p,
+#contact p,
+.section__text p {
+  width: 90%;
+  max-width: 350px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: center;
+  word-break: normal;
+  overflow-wrap: break-word;
+  white-space: normal;
 }
 
 
