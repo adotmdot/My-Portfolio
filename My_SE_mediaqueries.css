@@ -30,17 +30,37 @@
         margin-bottom: 2rem;
     }
 
-    .contact-info-upper-container {
-    flex-wrap: wrap; 
-    display: flex;
-    justify-content: center;
-    border-radius: 2rem;
-    border: orange 0.1rem solid;
-    border-color: orange;
-    background: none;
-    margin: 2rem -9rem;
-    padding: 0.5rem;
-    }
+  .contact-info-upper-container {
+  width: 90%;
+  max-width: 360px;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+  border: orange 0.1rem solid;
+  background: none;
+  box-sizing: border-box;
+}
+
+.contact-info-container {
+  width: 100%;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.contact-info-container p {
+  width: auto;
+  max-width: 260px;
+  font-size: 0.9rem;
+  text-align: center;
+  overflow-wrap: break-word;
+}
 
     .btn-container {
     flex-wrap: wrap;
@@ -162,20 +182,11 @@
   max-width: 250px;
 }
 
-#about .text-container p {
-  padding: 0 1rem;
-  word-wrap: break-word;
-  text-align: center;
-}
-
-#about .text-container {
-  text-align: center;
-  padding: 0 1rem;
-}
-
 .section-container {
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  width: 100%;
   gap: 1.5rem;
 }
 
@@ -353,27 +364,37 @@ font-size: 1.8rem;
 }
 
 
-/* FIX MOBILE PARAGRAPH WIDTH */
-#about .text-container,
-#contact .section__text,
-.contact-info-upper-container {
+/* FINAL ABOUT MOBILE FIX */
+
+#about .section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#about .text-container {
   width: 100%;
   max-width: 100%;
-}
-
-#about .text-container p,
-#contact p,
-.section__text p {
-  width: 90%;
-  max-width: 350px;
+  display: block;
+  flex: none;
+  padding: 1rem;
   margin: 0 auto;
-  line-height: 1.6;
+  box-sizing: border-box;
   text-align: center;
-  word-break: normal;
-  overflow-wrap: break-word;
-  white-space: normal;
 }
 
+#about .text-container p {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-align: center;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
 
 
 
